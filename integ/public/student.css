@@ -1,0 +1,133 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    background-color: #333;
+    color: white;
+    padding-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+.sidebar ul li:hover {
+    background-color: #555;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+header {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #444;
+}
+
+main {
+    margin-top: 20px;
+}
+
+/* Styles for your student information table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #555;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table td a button {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+table td a button:hover {
+    background-color: #bd2130;
+}
+
+/* Button styles */
+button.insert-btn {
+    background-color: #28a745;
+}
+
+button.insert-btn:hover {
+    background-color: #218838;
+}
+
+button.logout-btn {
+    background-color: #6c757d;
+}
+
+button.logout-btn:hover {
+    background-color: #5a6268;
+}
+.back-button {
+    background-color: #808080;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #555;
+}

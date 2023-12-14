@@ -1,0 +1,43 @@
+
+
+.main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.profile h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.profile a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.profile a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+.profile1, .profile3 {
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.profile2, .profile4 {
+    margin-bottom: 15px;
+}
+
+/* Add more styles as needed */
